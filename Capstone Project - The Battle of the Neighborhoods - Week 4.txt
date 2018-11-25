@@ -1,8 +1,0 @@
-Introduction/Business Proble
-One of the challenges for local public authorities in cities is to ensure a relatively uniform geographical distribution of essential services, including basic medical services. The local public authorities in Paris, France, intend to provide financial aid for the opening of new medical offices across the city. However, the neighborhoods of Paris differ in terms of the medical offices available and what is needed. Therefore, the local public authorities plan to provide funding for different types of medical office in each neighborhood, depending on the local needs. For that, they need an analysis that would show them which type of medical office is most needed in each neighborhood.
-
-Data
-
-Since the project is about Paris, France, and its neighborhoods, it requires a dataset containing all of those neighborhoods. Such a dataset is available on the Open Data Paris website, provided by the Paris Mayor’s Office. The dataset is called ‘Quartiers administratifs’, and it contains a list of all the neighborhoods in Paris, including their geographical coordinates.
-
-Using the list of Paris neighborhoods and their coordinates and the Foursquare API, I will get the basic medical venues for each neighborhood. That will include doctor’s offices, dentist’s offices, eye doctors, and physical therapists. I will use that data to analyze the neighborhoods of Paris and to analyze in each case which of the four medical services targeted is the least frequent. After that, I will cluster them into 3 clusters, using k-means. Such clustering will provide the basis for analysis and recommendations.
